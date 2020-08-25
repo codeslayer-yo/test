@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="googlestyle.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <style>
+            input[value="Google Search"]{
+                top: 360px;
+                width: 130px;
+                border-radius: 0%;
+                height: 35px;
+                left: 530px;
+                border: none;
+                font-size: 14px;
+                color: grey;
+            }
+            input[value="I'm Feeling Lucky"]{
+                top: 360px;
+                width: 130px;
+                border-radius: 0%;
+                height: 35px;
+                left: 670px;
+                color: grey;
+                border: none;
+                font-size: 14px;
+            }
+        </style>
+    </head>
+    <body>
+        <a class="tab" href="googleimage.html">Images</a>
+        <a href="googleadvanced.html">Advanced search</a>
+        <img class="imgg" src="google.png" width="290">
+        <form  action="https://google.com/search">
+            <input class="inputcon" type="text"  placeholder="   Search Google..." style="padding-left:40px;" name="q">
+            <i class="fa fa-search  icon"></i>
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
+        </form>
+    </body>
+</html>
